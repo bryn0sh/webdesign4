@@ -3,6 +3,7 @@
   --text-color: #434455;
   --logo-btn-color: #4d5ae5;
   --background-color: #2e2f42;
+  --hover-focus-color: #404bbf;
 }
 
 h1,
@@ -80,6 +81,12 @@ body {
 .main-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .main-header-conteiner {
@@ -122,8 +129,18 @@ body {
   color: var(--background-color);
 }
 
+.menu-link-item:hover,
+.menu-link-item:focus {
+  color: var(--hover-focus-color);
+}
+
 .main-adress {
   font-style: normal;
+}
+
+.adress-link-item:hover,
+.adress-link-item:focus {
+  color: var(--hover-focus-color);
 }
 
 .adress-list {
@@ -146,13 +163,24 @@ body {
 /* ========HERO======== */
 
 .hero {
-  background-color: var(--background-color);
+  background-color: var(--grey, rgba(46, 47, 66, 0.70));
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg-img/people-office\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+     max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-conteiner {
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 
   padding: 188px 0;
 }
@@ -184,6 +212,11 @@ body {
 
   border-radius: 4px;
   border: none;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--hover-focus-color);
 }
 
 /* ========/HERO======== */
@@ -267,8 +300,6 @@ body {
   margin: 32px auto;
   gap: 8px;
 }
-
-
 
 /* ========/SECTION-3======== */
 
