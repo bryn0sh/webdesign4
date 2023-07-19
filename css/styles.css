@@ -163,16 +163,16 @@ body {
 /* ========HERO======== */
 
 .hero {
-  background-color: var(--grey, rgba(46, 47, 66, 0.70));
+  background-color: var(--grey, rgba(46, 47, 66, 0.7));
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/bg-img/people-office\ 1.png);
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-     max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -180,7 +180,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 
   padding: 188px 0;
 }
@@ -234,6 +233,16 @@ body {
 
 .about-list-item:not(:last-child) {
   margin-right: 24px;
+}
+
+.section-1-icon-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
 }
 
 .sup-title-conteiner {
@@ -301,7 +310,70 @@ body {
   gap: 8px;
 }
 
+.social-list-icon {
+  display: flex;
+  gap: 24px;
+}
+
+.link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--logo-btn-color);
+  border-radius: 50%;
+}
+
+.link-icon:hover,
+.link-icon:focus {
+  background-color: var(--hover-focus-color);
+}
+
 /* ========/SECTION-3======== */
+
+/* ========SECTION-4======== */
+
+.section-four-conteiner{
+  padding: 120px 0;
+}
+
+.section-four-title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+ 
+}
+
+.customers-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+
+.customers-link-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:  1px solid  #8E8F99;
+  border-radius: 4px;
+ padding: 16px 32px;  
+}
+
+.customers-link-icon:hover,
+.customers-link-icon:focus{
+border-color: var(--hover-focus-color);
+
+}
+.customers-icon:hover,
+.customers-icon:focus{
+  color: var(--hover-focus-color);
+}
+
+
+
+/* ========/SECTION-4======== */
 
 /* =======================/МЕЙН======================= */
 
