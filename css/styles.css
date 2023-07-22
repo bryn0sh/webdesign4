@@ -241,8 +241,10 @@ body {
   align-items: center;
   background-color: #f4f4fd;
   border-radius: 4px;
-  padding: 24px 100px;
+
   margin-bottom: 8px;
+  width: 264px;
+  height: 102px;
 }
 
 .sup-title-conteiner {
@@ -358,7 +360,8 @@ body {
   align-items: center;
   border:  1px solid  #8E8F99;
   border-radius: 4px;
- padding: 16px 32px;  
+ width: 168px;
+ height: 88px;  
 }
 
 .customers-icon{
@@ -432,13 +435,16 @@ margin-bottom: 16px;
 }
 
 .list-social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
    
 
   background-color: var(--logo-btn-color);
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  padding: 8px 8px;
+  
   }
 
 .list-social-media:hover,
@@ -446,6 +452,10 @@ margin-bottom: 16px;
   background-color: #31D0AA;
 }
 
+.link-social-media{
+  width: 24px;
+  height: 24px;
+}
 
 
 
